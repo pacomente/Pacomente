@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+
+    background-color: #DCDCDC;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(253, 125, 21);;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    background-color: dodgerblue;
+    align-items: center;
+    padding: 10px 40px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+height: 50px;
+margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: #DCDCDC;
+}
+@media(max-width:700px){
+header{
+    flex-direction: column;
+}
+}
+
+
